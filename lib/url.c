@@ -3467,7 +3467,6 @@ static CURLcode create_conn(struct Curl_easy *data,
       goto out;
   }
 
-
   /*************************************************************
    * IDN-convert the proxy hostnames
    *************************************************************/
