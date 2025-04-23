@@ -3811,7 +3811,6 @@ CURLcode Curl_connect(struct Curl_easy *data,
   }
 #endif
 
-
   if(!result) {
     if(CONN_ATTACHED(conn) > 1)
       /* multiplexed */
